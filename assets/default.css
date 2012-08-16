@@ -1,0 +1,81 @@
+body {
+	text-shadow: -1px 1px 1px white;
+	color: #333333;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	padding: 30px;
+	zoom: 83%;
+	line-height: normal;
+	list-style-type: none; 
+}
+
+small { font-size: 60%; color: #666666;}
+
+
+a, a:visited { line-height: 130%; font-size:90%; color: #0080ff; text-decoration: none;}
+a:hover { font-size:90%; color: #0066cc; text-decoration: underline;}
+
+h1, h2, h3, h4 {
+   margin-bottom: 3px;
+}
+
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 750px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#header {
+}
+
+#content {
+}
+
+#footer {
+}
+
+
+#error {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#error li {
+  font-weight: bold;
+  color: #d00;
+}
+
+/* Form */
+#create_form em {
+  font-size: 12px;
+  color: #555;
+}
+
+#create_form label {
+  font-weight: bold;
+}
+
+#create_form #url {
+  width: 200px;
+}
+
+#create_form #alias {
+  width: 100px;
+}
+
+#create_form .button {
+  font: 13px;
+}
+
+#bookmarklets {
+  padding: 5px;
+  margin: 6px;
+  background-color: #eee;
+  border-radius: 3px;
+}

@@ -1,0 +1,51 @@
+== sURLy Version 0.6.8 ==
+ * Final XSS bug fixed. 
+
+== sURLy Version 0.6.2 ==
+ * Made post-shortening text (html/index_done.php) more simple and easier to read.
+ * Fixed Cross Site Scripting Vulnerabilities (88,89,90)
+ * Corrected a grammatical mistake in on of the error messages.
+ * Fixed directory browsing for /assets and /html (86)
+ * Added headings to the table of URLs in the admin panel
+ * Fixed issues with mailto protocol (71)
+ * Fixed Full path disclosure issues (85)
+ * 
+
+== sURLy Version 0.4.8 ==
+ 
+* Added new sURLy version notification in admin panel
+ 
+* New header added to admin panel
+ 
+* Deleted config.php as this file is created during installation.
+ 
+* Index page modified to die if install directory exists - for security purposes
+ 
+* sURLy.sql deleted - no longer needed as SQL setup is built into installation
+ 
+* Installation system added for easy setup (35)
+
+
+
+== sURLy Version 0.3.6 ==
+ 
+* Fixed database structure to allow capital letters to work correctly in short urls (61)
+
+
+
+== sURLy Version 0.1.3 ==
+ 
+* Fixed minor design issues (66,65,64)
+ 
+* Readded admin panel after careless deletion in beta 3.1 (63)
+ 
+* Moved all functions to one file (48)
+ 
+* Fixed maximum alias length issue (36)
+
+
+
+
+== sURLy Version ALFA 0.0.1 ==
+ 
+* Fixed issue 60

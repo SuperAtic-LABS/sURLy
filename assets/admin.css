@@ -1,0 +1,35 @@
+body {
+	text-shadow: -1px 1px 1px white;
+	color: #333333;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	padding: 30px;
+	zoom: 83%;
+	line-height: normal;
+	list-style-type: none; 
+}
+
+small { font-size: 60%; color: #666666;}
+
+
+a, a:visited { line-height: 130%; font-size:90%; color: #0080ff; text-decoration: none;}
+a:hover { font-size:90%; color: #0066cc; text-decoration: underline;}
+
+h2 {
+   margin-bottom: 3px;
+}
+
+#error {
+  color: #d00;
+  margin: 0;
+  padding: 0;
+  margin-left: 15px;
+}
+
+#url_list {
+  border: 0;
+}
+
+#url_list td {
+  padding: 3px;
+  background-color: #eee;
+}
